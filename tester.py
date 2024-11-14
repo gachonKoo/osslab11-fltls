@@ -1,1 +1,9 @@
-import math; __all__ = ['pythagoras', 'circle']; def pythagoras(a, b): return math.sqrt(a**2 + b**2); def circle(r): return math.pi * r**2; import geo.utils as utils; a, b = 3, 4; c = utils.pythagoras(a, b); print('c =', c); r = 10; area = utils.circle(r); print('area =', area)
+import geo.utils as utils
+
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print('c =', c)
+
+r = 10
+area = utils.circle(r)
+print('area =', area)
